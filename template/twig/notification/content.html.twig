@@ -1,0 +1,47 @@
+{% set class_prefix = 'pr-notification-' %}
+{% if tabs is not empty %}
+    {{ render_backend_spinner({
+        show: 0,
+        color: 'white'
+    }) }}
+    <nav class="{{ class_prefix|esc_attr }}tabs">
+        {% for id, tab in tabs %}
+            <a href="#{{ class_prefix|esc_attr }}tab-content-{{ id }}"
+               class="{{ class_prefix|esc_attr }}tab pr-tab-link{% if loop.first %} is-active{% endif %}"
+               id="{{ class_prefix|esc_attr }}tab-{{ id|esc_attr }}">
+                {{ render_icon(tab.icon, {class: 'icon-sm'}, 1) }}
+                <div class="{{ class_prefix|esc_attr }}tab-title">
+                    {{ tab.label|raw }}
+                </div>
+            </a>
+        {% endfor %}
+    </nav>
+    <div class="{{ class_prefix|esc_attr }}tab-contents">
+        {% for id, tab in tabs %}
+            <div class="{{ class_prefix|esc_attr }}tab-content pr-tab-content{% if loop.first %} is-active{% endif %}"
+                 id="{{ class_prefix|esc_attr }}tab-content-{{ id }}">
+                {% if tab.items is not empty %}
+                    <ul class="{{ class_prefix|esc_attr }}list pr-custom-scrollbar">
+                        {% for item in tab.items %}
+                            {% include get_template('notification', _self) with {
+                                notification: item,
+                                datetime_format: datetime_format
+                            } %}
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <div class="{{ class_prefix|esc_attr }}empty">
+                        {{ empty_text|raw }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="{{ class_prefix|esc_attr }}actions">
+        <span class="{{ class_prefix|esc_attr }}action{% if unread_count < 1 %} disabled{% endif %}">
+            {{ render_icon(read_all_icon, {class: 'icon-sm'}, 1) }}
+            {{ read_all_text|raw }}
+        </span>
+    </div>
+{% endif %}
+

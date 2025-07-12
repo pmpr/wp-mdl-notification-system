@@ -1,0 +1,4 @@
+<i class="ab-icon dashicons-bell"></i>
+{% if unread_count > 0 %}
+    <span class="ab-label" aria-hidden="true">{{ unread_count|number|raw }}</span>
+{% endif %}

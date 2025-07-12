@@ -1,0 +1,18 @@
+{% set class_prefix = 'pr-notification-' %}
+<li class="{{ class_prefix }}item{% if notification.is_read %} read{% endif %}">
+    <a href="{{ notification.link|raw }}" class="{{ class_prefix }}link">
+        <div class="{{ class_prefix }}icon">
+            {{ render_icon(notification.icon, {class: 'icon-md'}, 1) }}
+        </div>
+        <div class="{{ class_prefix }}content">
+            <div class="{{ class_prefix }}title-wrapper">
+                <strong class="{{ class_prefix }}title">{{ notification.title|raw }}</strong>
+                <time class="{{ class_prefix }}date"
+                      datetime="{{ notification.created_at|esc_attr }}">
+                    {{ notification.created_at|time_ago|raw }}
+                </time>
+            </div>
+            <div class="{{ class_prefix }}text">{{ notification.excerpt|raw }}</div>
+        </div>
+    </a>
+</li>

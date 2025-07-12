@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Mailer\n"
+"POT-Creation-Date: 2025-07-02 15:41+0330\n"
+"PO-Revision-Date: 2025-07-02 15:41+0330\n"
+"Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/NotificationSystem/AdminBar.php:72
+msgid "there is no notification yet."
+msgstr "هنوز اعلانی وجود ندارد."
+
+#: src/Pmpr/Module/NotificationSystem/AdminBar.php:74
+msgid "Mark All as Read"
+msgstr "خواندن همه"
+
+#: src/Pmpr/Module/NotificationSystem/AdminBar.php:81
+msgid "Important Alerts"
+msgstr "اعلان‌های مهم"
+
+#: src/Pmpr/Module/NotificationSystem/AdminBar.php:91
+msgid "All Alerts"
+msgstr "همه اعلان‌ها"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:20
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:138
+msgid "Audience"
+msgstr "مخاطب"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:21
+msgid "Audiences"
+msgstr "مخاطبان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:40
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:66
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:41
+msgid "By Users"
+msgstr "بر اساس کاربران"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:42
+msgid "By Roles"
+msgstr "بر اساس نقش‌های کاربری"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:46
+msgid "Users"
+msgstr "کاربران"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:50
+msgid "Roles"
+msgstr "نقش‌های کاربری"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:55
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:32
+#, fuzzy
+#| msgid "Notification"
+msgid "Notification Subject"
+msgstr "اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Audience.php:59
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:142
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:58
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:22
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:54
+msgid "Notification"
+msgstr "اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:23
+msgid "Notifications"
+msgstr "اعلان‌ها"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:33
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:82
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:37
+msgid "Content"
+msgstr "محتوا"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:41
+msgid "Excerpt"
+msgstr "شرح مختصر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:45
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:99
+msgid "Action Type"
+msgstr "نوع لینک عملیات"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:46
+msgid "Direct Link"
+msgstr "لینک مستقیم"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:47
+msgid "Show Page"
+msgstr "صفحه نمایشی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:52
+#, fuzzy
+#| msgid "Action"
+msgid "Action Link"
+msgstr "عملیات"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:56
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:94
+msgid "Icon"
+msgstr "آیکون"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:60
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:56
+msgid "Pinned"
+msgstr "سنجاق شده"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:64
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:61
+msgid "Important"
+msgstr "مهم شده"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Notification.php:69
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:22
+#, fuzzy
+#| msgid "Notification"
+msgid "Users Notification"
+msgstr "اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:33
+#, fuzzy
+#| msgid "Notifications"
+msgid "Notification Subjects"
+msgstr "اعلان‌ها"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:52
+msgid "Enabled"
+msgstr "فعال سازی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:67
+msgid "Alert"
+msgstr "اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:68
+msgid "Event"
+msgstr "رخ‌داد"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:69
+msgid "Report"
+msgstr "گزارش"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:74
+msgid "Also Send By"
+msgstr ""
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:75
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:76
+msgid "Phone"
+msgstr "شماره تماس"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:77
+msgid "Both"
+msgstr "هر دو"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:86
+#: src/Pmpr/Module/NotificationSystem/Setting.php:129
+msgid "Notification Title"
+msgstr "عنوان اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:90
+msgid "Notification Body"
+msgstr "متن اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:100
+msgid "Internal Link"
+msgstr "لینک داخلی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:101
+msgid "External Link"
+msgstr "لینک خارجی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:105
+msgid "Action"
+msgstr "عملیات"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:110
+msgid "Repeat Interval"
+msgstr "بازه تکرار"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:111
+msgid "Single"
+msgstr "فقط یک‌بار"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:112
+msgid "Hourly"
+msgstr "ساعتی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:113
+msgid "Daily"
+msgstr "روزانه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:114
+msgid "Weekly"
+msgstr "هفتگی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:115
+msgid "Monthly"
+msgstr "ماهانه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:116
+msgid "Yearly"
+msgstr "سالانه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:121
+#, fuzzy
+#| msgid "Repeat Interval"
+msgid "Repeat Count"
+msgstr "بازه تکرار"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:127
+msgid "Start At"
+msgstr "تاریخ شروع"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:132
+msgid "End At"
+msgstr "تاریخ پایان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:146
+msgid "Updated At"
+msgstr "تاریخ به روزرسانی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:189
+msgid "Website"
+msgstr "وب سایت"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:190
+msgid "User Email"
+msgstr "ایمیل کاربر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:191
+msgid "User Full Name"
+msgstr "نام و نام خانوادگی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:21
+msgid "User Notification"
+msgstr "اعلان کاربر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:44
+msgid "User"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:49
+msgid "Read"
+msgstr ""
+
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:129
+msgid "You are not authorized to view this notification."
+msgstr "شما مجاز به مشاهده این اعلان نیستید."
+
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:145
+msgid "View details"
+msgstr "مشاهده جزئیات"
+
+#: src/Pmpr/Module/NotificationSystem/NotificationSystem.php:27
+msgid "Notification System"
+msgstr "سیستم اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:37
+msgid "Notification System Setting"
+msgstr "تنظیمات سیستم اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:38
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:53
+msgid "Birthday Notification"
+msgstr "اعلان تولد"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:54
+msgid "Notify Users Birthday"
+msgstr "اعلان تولد کاربران"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:58
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:61
+msgid "Enable Notification"
+msgstr "فعال سازی اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:62
+msgid ""
+"By enabling this option, the system will automatically congratulate users on "
+"their birthdays and inform others."
+msgstr ""
+"با فعال کردن این گزینه، سیستم به صورت خودکار تولد کاربران را تبریک گفته و به "
+"دیگران نیز اطلاع میدهد."
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:66
+msgid "Congratulation Sending Time"
+msgstr "زمان ارسال تبریک"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:75
+msgid "Roles & Receivers"
+msgstr "نقش‌های کاربری و دریافت کنندگان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:78
+msgid "Schedule Roles for Birthday Congratulation"
+msgstr "برنامه‌ریزی نقش‌ها برای تبریک تولد"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:79
+msgid ""
+"A collection of items that specifies which roles should be notified of a user's "
+"birthday, one day in advance, and which other roles should be notified."
+msgstr ""
+"یک مجموعه شامل آیتم‌هایی که مشخص می‌کند تولد کاربران با چه نقش‌هایی، یک روز قبل از "
+"تولد به کدام نقش‌های دیگر اطلاع‌رسانی شود."
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:83
+msgid "User Roles"
+msgstr "نقش کاربران"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:84
+msgid "Notify this user's roles birthday"
+msgstr "اطلاع تولد کاربرای با این نقش کاربری"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:89
+msgid "Receiver Roles"
+msgstr "نقش‌های دریافت کننده"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:90
+msgid "to this user's roles"
+msgstr "به کاربرانی با نقش کاربری"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:98
+#: src/Pmpr/Module/NotificationSystem/Setting.php:140
+msgid "Notification Content"
+msgstr "متن اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:117
+msgid "Birthday"
+msgstr "تاریخ تولد"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:121
+msgid "Show as Important Notif"
+msgstr "نمایش به عنوان اعلان مهم"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:122
+msgid "If enabled, the birthday notification will be displayed as \"Important\"."
+msgstr "اگر فعال باشد، اعلان تولد به‌عنوان \"مهم\" نمایش داده می‌شود."
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:125
+msgid "Pin Notification"
+msgstr "پین کردن اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:126
+msgid ""
+"If enabled, the birthday notification will be placed at the top of the "
+"notification list for greater visibility."
+msgstr ""
+"اگر فعال باشد، اعلان تولد در بالای فهرست اعلان‌ها قرار می‌گیرد تا بیشتر دیده شود."
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:133
+msgid "Notification Icon"
+msgstr "آیکون اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Setting.php:136
+msgid "Notification Excerpt"
+msgstr "شرح مختصر اعلان"
+
+#~ msgid "on this time"
+#~ msgstr "در"
+
+#~ msgid "One Day Before"
+#~ msgstr "یک روز قبل"
+
+#~ msgid "Two Day Before"
+#~ msgstr "دو روز قبل"
+
+#~ msgid "Three Day Before"
+#~ msgstr "سه روز قبل"
+
+#~ msgid "Body"
+#~ msgstr "متن"
+
+#~ msgid "Delivery Type"
+#~ msgstr "نحوه ارسال"
+
+#~ msgid "Notifier"
+#~ msgstr "اعلان‌رسان"
+
+#~ msgid "This section lets you customize the Components emails."
+#~ msgstr "این بخش به شما امکان می‌دهد ایمیل‌های کامپوننت‌ها را سفارشی‌سازی کنید."
+
+#~ msgid "Click here to preview your email template."
+#~ msgstr "برای مشاهده پیش‌نمایش قالب ایمیل خود اینجا کلیک کنید."
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Subject"
+#~ msgstr "موضوع"
+
+#, php-format
+#~ msgid "Test message sent successfully to %s"
+#~ msgstr "پیام با موفقیت برای %s ارسال شد"
+
+#~ msgid "Something wrong on sending mail, check log files."
+#~ msgstr ""
+#~ "مشکلی در فرآیند ارسال ایمیل به وجود آمده است، لطفا فایل لاگ را بررسی کنید."
+
+#~ msgid "Require parameter is missing"
+#~ msgstr "پارامتر‌های ضروری یافت نشدند"
+
+#, php-format
+#~ msgid "%s is not a valid email address"
+#~ msgstr "%s یک ایمیل معتبر نیست"
+
+#~ msgid "Configure Test"
+#~ msgstr "پیکربندی تست"
+
+#~ msgid "Send To"
+#~ msgstr "ارسال به"
+
+#~ msgid ""
+#~ "After completing the general section fields, save the settings, then you can "
+#~ "send a test email."
+#~ msgstr ""
+#~ "پس از تکمیل فیلد های بخش عمومی، تنظیمات را ذخیره کنید، سپس می‌توانید ایمیل "
+#~ "آزمایشی بفرستید."
+
+#~ msgid "Send Email"
+#~ msgstr "ارسال ایمیل"
+
+#~ msgid "Generic SMTP"
+#~ msgstr "SMTP عمومی"
+
+#~ msgid "Generic SMTP Configuration"
+#~ msgstr "پیکربندی SMTP عمومی"
+
+#~ msgid "Credential"
+#~ msgstr "اطلاعات حساب"
+
+#~ msgid "SMTP Host"
+#~ msgstr "میزبان اس ام تی پی"
+
+#, php-format
+#~ msgid "The SMTP server which will be used to send email. For example: %s"
+#~ msgstr "سرور SMTP که برای ارسال ایمیل استفاده خواهد شد. به عنوان مثال: %s"
+
+#~ msgid "Enable Authentication"
+#~ msgstr "فعال‌سازی احراز هویت"
+
+#~ msgid "Whether to use SMTP Authentication when sending an email"
+#~ msgstr "آیا هنگام ارسال ایمیل از احراز هویت SMTP استفاده شود یا خیر"
+
+#~ msgid "Password"
+#~ msgstr "گذرواژه"
+
+#~ msgid "Gmail SMTP"
+#~ msgstr "SMTP جیمیل"
+
+#~ msgid "Gmail SMTP Configuration"
+#~ msgstr "پیکربندی SMTP جیمیل"
+
+#~ msgid "OAuth Email"
+#~ msgstr "ایمیل OAuth"
+
+#~ msgid ""
+#~ "The email address that you will use for SMTP authentication. This should be "
+#~ "the same email used in the Google Developers Console."
+#~ msgstr ""
+#~ "آدرس ایمیلی که برای احراز هویت SMTP استفاده خواهید کرد. این ایمیل باید همان "
+#~ "ایمیلی باشد که در Google Developers Console استفاده شده است."
+
+#, php-format
+#~ msgid "%s cannot send email until you enter your credentials in the %s."
+#~ msgstr ""
+#~ "تا زمانی که اطلاعات مربوطه در %s را وارد نکرده‌اید، %s غیر فعال خواهد بود."
+
+#~ msgid "Mailer"
+#~ msgstr "ایمیل رسان"
+
+#~ msgid "General Configuration"
+#~ msgstr "پیکربندی عمومی"
+
+#~ msgid "SMTP Configuration"
+#~ msgstr "پیکربندی اس ام تی پی"
+
+#~ msgid "SMTP Engine"
+#~ msgstr "متور SMTP"
+
+#~ msgid "Generic"
+#~ msgstr "عمومی"
+
+#~ msgid "Type of Encryption"
+#~ msgstr "نوع رمزنگاری"
+
+#~ msgid "No Encryption"
+#~ msgstr "بدون رمزنگاری"
+
+#~ msgid "For most servers SSL/TLS is the recommended option."
+#~ msgstr "برای بیشتر سرورها SSL/TLS پیشنهاد می‌شود."
+
+#~ msgid "SMTP Port"
+#~ msgstr "پورت اس ام تی پی"
+
+#, php-format
+#~ msgid ""
+#~ "The port which will be used when sending an email (%s). If you choose TLS it "
+#~ "should be set to %s. For SSL use port %s instead."
+#~ msgstr ""
+#~ "درگاهی که هنگام ارسال ایمیل استفاده می شود (%s). اگر TLS را انتخاب کنید باید "
+#~ "روی %s تنظیم شود. برای SSL از پورت %s استفاده کنید."
+
+#~ msgid "Email Information"
+#~ msgstr "اطلاعات ایمیل"
+
+#~ msgid "From Email Address"
+#~ msgstr "آدرس ایمیل"
+
+#~ msgid "From Name"
+#~ msgstr "نام"
+
+#~ msgid "Email Template"
+#~ msgstr "قالب ایمیل"
+
+#~ msgid "Configure Template"
+#~ msgstr "پیکربندی قالب"
+
+#~ msgid "Logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Base Color"
+#~ msgstr "رنگ اصلی"
+
+#~ msgid "Background Color"
+#~ msgstr "رنگ پس‌زمینه"
+
+#~ msgid "Body Background Color"
+#~ msgstr "رنگ پس‌زمینه بدنه"
+
+#~ msgid "Body Text Color"
+#~ msgstr "رنگ متن بدنه"
+
+#~ msgid "Footer Text"
+#~ msgstr "متن پاورقی"
+
+#~ msgid "Footer Text Color"
+#~ msgstr "رنگ متن فوتر"
+
+#~ msgid "This is test subject"
+#~ msgstr "این یک موضوعآزمایشی است"
+
+#~ msgid "Email Body"
+#~ msgstr "متن ایمیل"
+
+#~ msgid "This is a test message"
+#~ msgstr "این یک پیغام آزمایشی است"
+
+#~ msgid "Error: "
+#~ msgstr "خطا: "
+
+#~ msgid "Access granted successfully!"
+#~ msgstr "دسترسی با موفقیت اعطا شد!"
+
+#~ msgid "Access could not be granted!"
+#~ msgstr "دسترسی داده نشد!"
+
+#~ msgid "Grant Access Status"
+#~ msgstr "وضعیت دسترسی"
+
+#~ msgid "Use this url as authorized redirect uri in google api console."
+#~ msgstr ""
+#~ "از این url به عنوان authorized redirect uri در google api console استفاده "
+#~ "کنید."
+
+#~ msgid "Client ID"
+#~ msgstr "شناسه مشتری (Client ID)"
+
+#~ msgid "Client Secret"
+#~ msgstr "کلید مشتری (Client Secret)"
+
+#~ msgid "Not connected."
+#~ msgstr "وصل نشده."
+
+#~ msgid "Please %s to grant access permission."
+#~ msgstr "لطفا برای اعطای مجوز دسترسی %s."
+
+#~ msgid "Click Here"
+#~ msgstr "اینجا کلیک کنید"
+
+#~ msgid "Please fill %s and %s and save settings."
+#~ msgstr "لطفا %s و %s را پر کرده و تنظمات را ذخیره کنید."
+
+#~ msgid "Connected"
+#~ msgstr "وصل شده"
+
+#~ msgid "The client id of your web application."
+#~ msgstr "شناسه وب اپلیکیشن شما."
+
+#~ msgid "The client secret of your web application."
+#~ msgstr "کلید وب اپلیکیشن شما."
+
+#~ msgid "Gmail Grant Access"
+#~ msgstr "اعطای دسترسی جیمیل"
+
+#~ msgid "Grant Permission"
+#~ msgstr "اعطای دسترسی"
+
+#~ msgid "SMTP"
+#~ msgstr "اس ام تی پی"
+
+#~ msgid "To"
+#~ msgstr "به"
+
+#~ msgid "Your SMTP Username."
+#~ msgstr "نام کاربری اس ام تی پی شما."
+
+#~ msgid "Disable Mailer"
+#~ msgstr "غیر فعال کردن"
+
+#~ msgid "Check this item to disable mailer functionality."
+#~ msgstr "برای غیر فعال کردن عملکرد."
+

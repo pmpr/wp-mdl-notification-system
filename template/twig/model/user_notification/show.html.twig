@@ -1,0 +1,31 @@
+{% set class_prefix = 'pr-user-notification-'|esc_attr %}
+<div class="wrap {{ class_prefix }}wrapper">
+    <div class="{{ class_prefix }}card">
+        <header class="{{ class_prefix }}header">
+            <div class="{{ class_prefix }}icon">
+                {{ render_icon(notification.icon, {class: 'icon-xl icon-primary'}) }}
+            </div>
+            <div class="{{ class_prefix }}header-content">
+                <div class="{{ class_prefix }}title-wrapper">
+                    <strong class="{{ class_prefix }}title">{{ notification.title|raw }}</strong>
+                    <time class="{{ class_prefix }}date" datetime="{{ notification.created_at|esc_attr }}">
+                        {{ notification.created_at|time_ago|raw }}
+                    </time>
+                </div>
+                <div class="{{ class_prefix }}excerpt">{{ notification.excerpt|raw }}</div>
+            </div>
+        </header>
+        <div class="{{ class_prefix }}content">
+            {{ wpautop(notification.content)|raw }}
+
+            {% if notification.link is not empty %}
+                <div class="{{ class_prefix }}action-wrapper">
+                    <a href="{{ notification.link|esc_url }}"
+                       class="{{ class_prefix }}action pr-btn btn-primary">
+                        {{ action_text|raw }}
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
