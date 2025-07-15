@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68729e5e5d855             |
+    |             68763a4dd0e86             |
     |_______________________________________|
 */
  namespace Pmpr\Module\NotificationSystem; use Pmpr\Module\NotificationSystem\Model\Notification; class Ajax extends Container { const gkimiuwesaueukme = NotificationSystem::PREFIX . 'mark_all_as_read'; const sewqceoeqwsywywc = NotificationSystem::PREFIX . 'get_notifications'; public function wigskegsqequoeks() { $this->qcsmikeggeemccuu(self::gkimiuwesaueukme, [$this, 'eksgmmskaeqwkouw'])->qcsmikeggeemccuu(self::sewqceoeqwsywywc, [$this, 'weoociwuqeqowkyu']); } public function eksgmmskaeqwkouw() { $occymigcemkqucuw = false; $eiicaiwgqkgsekce = $this->caokeucsksukesyo()->giiecckwoyiawoyy(); if (!$this->uwkmaywceaaaigwo()->issssuygyewuaswa()->ksgkoukcicwkkaum()) { $keccaugmemegoimu = $this->caokeucsksukesyo()->euekiyuksecoccus()->gosmqcmmomkqwmis(__('', PR__MDL__NOTIFICATION_SYSTEM)); } else { $keccaugmemegoimu = $eiicaiwgqkgsekce->aoyemeikggcigigu(); if (!is_wp_error($keccaugmemegoimu)) { $ycoeoaakqyskgykq = $this->uwkmaywceaaaigwo()->issssuygyewuaswa()->qyeguewwsmosqcwc(); Notification::symcgieuakksimmu()->gssiscqyqsacmeca()->oisyoywgmmaawqmy([]); } } $eiicaiwgqkgsekce->uaggqsoeugksgooc($keccaugmemegoimu, $occymigcemkqucuw); } public function weoociwuqeqowkyu() { $occymigcemkqucuw = false; $eiicaiwgqkgsekce = $this->caokeucsksukesyo()->giiecckwoyiawoyy(); $keccaugmemegoimu = $eiicaiwgqkgsekce->aoyemeikggcigigu(); if (!is_wp_error($keccaugmemegoimu)) { } $eiicaiwgqkgsekce->uaggqsoeugksgooc($keccaugmemegoimu, $occymigcemkqucuw); } }

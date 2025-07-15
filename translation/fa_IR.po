@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Mailer\n"
-"POT-Creation-Date: 2025-07-02 15:41+0330\n"
-"PO-Revision-Date: 2025-07-02 15:41+0330\n"
+"POT-Creation-Date: 2025-07-15 03:10+0330\n"
+"PO-Revision-Date: 2025-07-15 03:10+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -40,6 +40,7 @@ msgstr "همه اعلان‌ها"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Audience.php:20
 #: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:138
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:143
 msgid "Audience"
 msgstr "مخاطب"
 
@@ -48,7 +49,7 @@ msgid "Audiences"
 msgstr "مخاطبان"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Audience.php:40
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:66
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:87
 msgid "Type"
 msgstr "نوع"
 
@@ -69,14 +70,13 @@ msgid "Roles"
 msgstr "نقش‌های کاربری"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Audience.php:55
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:32
 #, fuzzy
 #| msgid "Notification"
 msgid "Notification Subject"
 msgstr "اعلان"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Audience.php:59
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:142
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:147
 #: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:58
 msgid "Created At"
 msgstr "تاریخ ایجاد"
@@ -91,7 +91,7 @@ msgid "Notifications"
 msgstr "اعلان‌ها"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:33
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:82
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:72
 msgid "Title"
 msgstr "عنوان"
 
@@ -104,11 +104,12 @@ msgid "Excerpt"
 msgstr "شرح مختصر"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:45
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:99
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:121
 msgid "Action Type"
 msgstr "نوع لینک عملیات"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:46
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:123
 msgid "Direct Link"
 msgstr "لینک مستقیم"
 
@@ -117,23 +118,22 @@ msgid "Show Page"
 msgstr "صفحه نمایشی"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:52
-#, fuzzy
-#| msgid "Action"
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:127
 msgid "Action Link"
-msgstr "عملیات"
+msgstr "لینک عملیات"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:56
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:94
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:116
 msgid "Icon"
 msgstr "آیکون"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:60
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:56
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:77
 msgid "Pinned"
 msgstr "سنجاق شده"
 
 #: src/Pmpr/Module/NotificationSystem/Model/Notification.php:64
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:61
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:82
 msgid "Important"
 msgstr "مهم شده"
 
@@ -144,122 +144,173 @@ msgstr "مهم شده"
 msgid "Users Notification"
 msgstr "اعلان"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:33
-#, fuzzy
-#| msgid "Notifications"
-msgid "Notification Subjects"
-msgstr "اعلان‌ها"
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:60
+msgid "Send"
+msgstr "ارسال"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:52
-msgid "Enabled"
-msgstr "فعال سازی"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:67
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:88
 msgid "Alert"
 msgstr "اعلان"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:68
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:89
 msgid "Event"
 msgstr "رخ‌داد"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:69
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:90
 msgid "Report"
 msgstr "گزارش"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:74
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:95
 msgid "Also Send By"
-msgstr ""
+msgstr "همچنین ارسال توسط"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:75
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:96
+msgid "None"
+msgstr "هیچکدام"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:97
 msgid "Email"
 msgstr "ایمیل"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:76
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:98
 msgid "Phone"
 msgstr "شماره تماس"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:77
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:99
 msgid "Both"
 msgstr "هر دو"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:86
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:104
 #: src/Pmpr/Module/NotificationSystem/Setting.php:129
 msgid "Notification Title"
 msgstr "عنوان اعلان"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:90
-msgid "Notification Body"
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:108
+#: src/Pmpr/Module/NotificationSystem/Setting.php:136
+msgid "Notification Excerpt"
+msgstr "شرح مختصر اعلان"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:112
+#: src/Pmpr/Module/NotificationSystem/Setting.php:98
+#: src/Pmpr/Module/NotificationSystem/Setting.php:140
+msgid "Notification Content"
 msgstr "متن اعلان"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:100
-msgid "Internal Link"
-msgstr "لینک داخلی"
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:122
+msgid "Notification Show Page"
+msgstr "صفحه نمایش اعلان"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:101
-msgid "External Link"
-msgstr "لینک خارجی"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:105
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:131
 msgid "Action"
 msgstr "عملیات"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:110
-msgid "Repeat Interval"
-msgstr "بازه تکرار"
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:136
+msgid "Send To"
+msgstr "ارسال به"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:111
-msgid "Single"
-msgstr "فقط یک‌بار"
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:137
+msgid "Everyone"
+msgstr "همه کاربران"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:112
-msgid "Hourly"
-msgstr "ساعتی"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:113
-msgid "Daily"
-msgstr "روزانه"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:114
-msgid "Weekly"
-msgstr "هفتگی"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:115
-msgid "Monthly"
-msgstr "ماهانه"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:116
-msgid "Yearly"
-msgstr "سالانه"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:121
-#, fuzzy
-#| msgid "Repeat Interval"
-msgid "Repeat Count"
-msgstr "بازه تکرار"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:127
-msgid "Start At"
-msgstr "تاریخ شروع"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:132
-msgid "End At"
-msgstr "تاریخ پایان"
-
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:146
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:151
 msgid "Updated At"
 msgstr "تاریخ به روزرسانی"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:189
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:168
+msgid "A title for backend area"
+msgstr "عنوان در بخش مدیریت سایت"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:225
 msgid "Website"
 msgstr "وب سایت"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:190
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:226
 msgid "User Email"
 msgstr "ایمیل کاربر"
 
-#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:191
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:227
+msgid "User Phone"
+msgstr "شماره تماس کاربر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:228
 msgid "User Full Name"
 msgstr "نام و نام خانوادگی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:229
+msgid "User Last Name"
+msgstr "نام خانوادگی کاربر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/NotificationSubject.php:230
+msgid "User First Name"
+msgstr "نام کوچک کاربر"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Onetime.php:24
+msgid "Onetime Notifications"
+msgstr "اعلان‌های یک‌باره"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Onetime.php:25
+msgid "Onetime Notification"
+msgstr "اعلان یک‌باره"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Onetime.php:40
+msgid "Send Type"
+msgstr "نحوه ارسال"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Onetime.php:41
+msgid "Immediately"
+msgstr "بدون وقفه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Onetime.php:42
+msgid "Scheduled"
+msgstr "برنامه ریزی شده"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Onetime.php:46
+msgid "Scheduled Datetime"
+msgstr "زمان برنامه‌ریزی شده"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:22
+msgid "Recurring Notifications"
+msgstr "اعلان‌های دوره‌ای"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:23
+msgid "Recurring Notification"
+msgstr "اعلان دوره‌ای"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:34
+msgid "Enabled"
+msgstr "فعال سازی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:40
+msgid "Repeat Interval"
+msgstr "بازه تکرار"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:41
+msgid "Hourly"
+msgstr "ساعتی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:42
+msgid "Daily"
+msgstr "روزانه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:43
+msgid "Weekly"
+msgstr "هفتگی"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:44
+msgid "Monthly"
+msgstr "ماهانه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:45
+msgid "Yearly"
+msgstr "سالانه"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:50
+msgid "Start At"
+msgstr "تاریخ شروع"
+
+#: src/Pmpr/Module/NotificationSystem/Model/Recurring.php:55
+msgid "End At"
+msgstr "تاریخ پایان"
 
 #: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:21
 msgid "User Notification"
@@ -277,11 +328,11 @@ msgstr ""
 msgid "You are not authorized to view this notification."
 msgstr "شما مجاز به مشاهده این اعلان نیستید."
 
-#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:145
+#: src/Pmpr/Module/NotificationSystem/Model/UserNotification.php:149
 msgid "View details"
 msgstr "مشاهده جزئیات"
 
-#: src/Pmpr/Module/NotificationSystem/NotificationSystem.php:27
+#: src/Pmpr/Module/NotificationSystem/NotificationSystem.php:25
 msgid "Notification System"
 msgstr "سیستم اعلان"
 
@@ -353,11 +404,6 @@ msgstr "نقش‌های دریافت کننده"
 msgid "to this user's roles"
 msgstr "به کاربرانی با نقش کاربری"
 
-#: src/Pmpr/Module/NotificationSystem/Setting.php:98
-#: src/Pmpr/Module/NotificationSystem/Setting.php:140
-msgid "Notification Content"
-msgstr "متن اعلان"
-
 #: src/Pmpr/Module/NotificationSystem/Setting.php:117
 msgid "Birthday"
 msgstr "تاریخ تولد"
@@ -385,9 +431,27 @@ msgstr ""
 msgid "Notification Icon"
 msgstr "آیکون اعلان"
 
-#: src/Pmpr/Module/NotificationSystem/Setting.php:136
-msgid "Notification Excerpt"
-msgstr "شرح مختصر اعلان"
+#~ msgid "Internal Link"
+#~ msgstr "لینک داخلی"
+
+#~ msgid "External Link"
+#~ msgstr "لینک خارجی"
+
+#, fuzzy
+#~| msgid "Repeat Interval"
+#~ msgid "Repeat Count"
+#~ msgstr "بازه تکرار"
+
+#, fuzzy
+#~| msgid "Notifications"
+#~ msgid "Notification Subjects"
+#~ msgstr "اعلان‌ها"
+
+#~ msgid "Notification Body"
+#~ msgstr "متن اعلان"
+
+#~ msgid "Single"
+#~ msgstr "فقط یک‌بار"
 
 #~ msgid "on this time"
 #~ msgstr "در"
@@ -439,9 +503,6 @@ msgstr "شرح مختصر اعلان"
 
 #~ msgid "Configure Test"
 #~ msgstr "پیکربندی تست"
-
-#~ msgid "Send To"
-#~ msgstr "ارسال به"
 
 #~ msgid ""
 #~ "After completing the general section fields, save the settings, then you can "
