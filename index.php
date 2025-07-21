@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68797250c84c2             |
+    |             687eace567115             |
     |_______________________________________|
 */
  use Pmpr\Module\NotificationSystem\NotificationSystem; NotificationSystem::symcgieuakksimmu();

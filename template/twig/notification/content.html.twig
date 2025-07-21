@@ -38,7 +38,7 @@
         {% endfor %}
     </div>
     <div class="{{ class_prefix|esc_attr }}actions">
-        <span class="{{ class_prefix|esc_attr }}action{% if unread_count < 1 %} disabled{% endif %}">
+        <span class="{{ class_prefix|esc_attr }}action pr-read-all{% if unread_count < 1 %} disabled{% endif %}">
             {{ render_icon(read_all_icon, {class: 'icon-sm'}, 1) }}
             {{ read_all_text|raw }}
         </span>

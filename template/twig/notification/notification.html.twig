@@ -1,5 +1,6 @@
 {% set class_prefix = 'pr-notification-' %}
-<li class="{{ class_prefix }}item{% if notification.is_read %} read{% endif %}">
+<li class="{{ class_prefix }}item{% if notification.is_read %} read{% endif %}"
+    data-id="{{ notification.id|esc_attr }}">
     <a href="{{ notification.link|raw }}" class="{{ class_prefix }}link">
         <div class="{{ class_prefix }}icon">
             {{ render_icon(notification.icon, {class: 'icon-md'}, 1) }}
